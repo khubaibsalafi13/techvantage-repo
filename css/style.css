@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800;900&display=swap');
+
+:root{
+    --BrandColor:rgb(0, 166, 255);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+.container{
+    max-width: 1180px;
+    margin: 0 auto;
+
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+
+}
+.header .logo h2{
+font-size: 26px;
+}
+
+.header .menu ul{
+    display: flex;
+}
+
+.header .menu ul li a{
+    
+    padding: 10px 25px;
+    color: rgb(44, 44, 44);
+
+}
+.header .menu ul li a:hover{
+    
+    color: var(--BrandColor);
+
+}
+
+
+.menu ul.login_link{
+
+ background-color: red;
+}
+
+.menu ul li a.login_link{
+    color: var(--BrandColor);
+    font-weight: 600;
+}
+.menu ul li a.getstart_link{
+    background-color: var(--BrandColor);
+    color: #ffff;
+    transition: all linear .3s;
+}
+.menu ul li a.getstart_link:hover{
+    background-color: rgb(7, 205, 255);
+    color: #ffff;
+}
+
+.hero .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 85px;
+}
+
+.hero_text h2{
+    font-size: 50px;
+    text-transform: uppercase;
+    line-height: 58px;
+
+}
+
+.hero_text p{
+
+    font-size: 16px;
+    margin: 30px 0px;
+    color: gray;
+
+
+}
+
+.btn{
+ padding: 10px 25px;
+ margin-right: 10px;
+
+}
+
+.Learn_More{
+    color: rgb(0, 166, 255);
+    border: 1px solid rgb(0, 166, 255);
+}
+
+.Hire_Me{
+    background-color: var(--BrandColor);
+    color: white;
+
+}
+
+.service .container{
+    display: flex;
+    gap: 15px;
+    margin-top: 85px;
+}
+
+.service_main{
+    width: 25%;
+    height: auto;
+    background-color: #ffff;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.237);
+
+
+}
+
+.service_text{
+    float: left;
+    padding: 20px 10px 30px 15px;
+
+}
